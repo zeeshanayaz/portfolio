@@ -1,0 +1,27 @@
+[debug] [2018-05-19T12:20:16.479Z] ----------------------------------------------------------------------
+[debug] [2018-05-19T12:20:16.482Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Zeeshan\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase open
+[debug] [2018-05-19T12:20:16.483Z] CLI Version:   3.17.4
+[debug] [2018-05-19T12:20:16.483Z] Platform:      win32
+[debug] [2018-05-19T12:20:16.483Z] Node Version:  v6.11.1
+[debug] [2018-05-19T12:20:16.484Z] Time:          Sat May 19 2018 17:20:16 GMT+0500 (Pakistan Standard Time)
+[debug] [2018-05-19T12:20:16.484Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-05-19T12:20:16.503Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2018-05-19T12:20:16.505Z] > authorizing via signed-in user
+[debug] [2018-05-19T12:20:16.510Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-05-19T12:20:16.510Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/lFFYp_eSIy9Lv66ixVEG0XaSML4shSsy2lqAMlahLub9hZK0jS_r77QI-zeRXHX3',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat May 19 2018 17:20:16 GMT+0500 (Pakistan Standard Time)
+[debug] [2018-05-19T12:20:16.953Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T12:20:17.000Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/portfolio-8e3a3  
+  
+ Sat May 19 2018 17:20:17 GMT+0500 (Pakistan Standard Time)
+[debug] [2018-05-19T12:20:17.991Z] <<< HTTP RESPONSE 200
+[debug] [2018-05-19T12:20:17.993Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/portfolio-8e3a3/tokens  
+  
+ Sat May 19 2018 17:20:17 GMT+0500 (Pakistan Standard Time)
+[debug] [2018-05-19T12:20:18.880Z] <<< HTTP RESPONSE 200
